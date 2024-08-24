@@ -1,0 +1,1321 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Cabin+Sketch:wght@400;700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Port+Lligat+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Cabin+Sketch:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Port+Lligat+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Cabin+Sketch:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Port+Lligat+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fef7ea;
+}
+
+.container {
+    padding: 40px 180px;
+
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.background-img {
+    width: 100%;
+    height: 99vh;
+    background-image: url("../image/Mask\ group.png");
+    background-repeat: no-repeat;
+
+}
+
+.navs {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.active {
+
+    margin-left: 50px;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.navs li {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.second-img {
+    padding: 50px 200px;
+}
+
+.btn {
+    padding: 13px 38px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin: 0px 190px 0px 19px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #90b340;
+    border-radius: 20px;
+}
+
+.heading {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 80px;
+    font-weight: 200;
+    color: #8fb339;
+    margin: 260px 390px;
+
+}
+.span-one {
+    position: absolute;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #FFFFFF;
+    top: 21%;
+    left: 87%;
+}
+
+.span-two{
+    position: absolute;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #FFFFFF;
+    top: 88%;
+    left: 87%;
+    
+  
+}
+
+.line-heading {
+    position: absolute;
+    left: 90%;
+    top: 22%;
+    height: 620px;
+}
+
+.leaf-img {
+    position: absolute;
+    left: 25.2%;
+    top: 45%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about-us {
+    margin-top: 350px;
+    margin-left: 250px;
+}
+
+.about-us span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #333333;
+}
+
+.about-us h1 {
+    margin-top: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;
+    color: #8FB339;
+}
+
+.about-us p {
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.right-side {
+    position: relative;
+    margin-top: 300px;
+    margin-right: 200px;
+}
+
+/* second carrot */
+
+.section-carrot {
+    position: relative;
+}
+
+.carrot-img {
+    position: absolute;
+    left: 58%;
+    top: 5%;
+}
+
+.flower {
+    margin-left: 200px;
+    margin-top: 400px;
+}
+
+.about-us button {
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 13px 38px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #8fb339;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.about-us button:hover {
+    background-color: #90b340;
+    border-radius: 30px;
+}
+
+.carrot {
+
+    width: 300px;
+}
+
+.vegitable {
+    position: absolute;
+    top: 3%;
+    left: 35%;
+}
+
+.second-leaf {
+    margin-left: 800px;
+    margin-top: 250px;
+}
+
+
+.be-healthy {
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.be-healthy h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+
+}
+
+.be-healthy h1 {
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #8FB339;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.be-healthy p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-section {
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+.vegetables {
+    margin-right: 50px;
+    padding: 0px 40px;
+    margin-left: -50px;
+}
+
+.span {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -160px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8FB339;
+}
+
+.fruits {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -140px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+
+}
+
+.cauliflower {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -150px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.beans {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -160px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.mushrooms {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -160px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.eggs {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -160px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+
+}
+
+.cards {
+    margin-left: 590px;
+    margin-top: 100px;
+    background-color: #eaf8d3;
+    width: 240px;
+    height: 320px;
+}
+
+.card-img img {
+
+    height: 200px;
+    margin-top: 20px;
+    padding-left: 2px;
+}
+
+.card-heading h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.card-heading {
+    display: flex;
+}
+
+.card-heading img {
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.digits {
+    margin-left: 20px;
+    margin-top: 10px;
+    top: 110%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.digits i {
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: #8fb339;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.second-card {
+    margin-left: 892px;
+    margin-top: -320px;
+    width: 240px;
+    height: 320px;
+    background-color: #fff2d8;
+
+
+}
+
+.second-card-img img {
+
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.third-card {
+    margin-left: 1180px;
+    margin-top: -320px;
+    width: 240px;
+    height: 320px;
+    background-color: #eaf8d3;
+
+}
+
+.third-card-img img {
+
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.tomatoes-card {
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    background-color: #e9f4fa;
+    top: 305%;
+    left: 31%;
+}
+
+.tomatoes-card-img img {
+    height: 200px;
+    margin-top: 12px;
+    margin-left: 18px;
+
+}
+
+.cucumbers-card {
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    background-color: #ffe4bc;
+    top: 305%;
+    left: 47%;
+}
+
+.cucumbers-card-img img {
+    height: 200px;
+    margin-top: 12px;
+    margin-left: 18px;
+
+}
+
+.cherries-card {
+
+    position: absolute;
+    width: 241px;
+    height: 320px;
+    background-color: #e9f4fa;
+    top: 305%;
+    left: 62.1%;
+
+}
+
+.cherries-card-img img {
+    height: 200px;
+    margin-top: 12px;
+    margin-left: 18px;
+
+}
+
+.avocados-card {
+    position: absolute;
+    width: 241px;
+    height: 320px;
+    background-color: #eaf8d3;
+    top: 340%;
+    left: 31%;
+
+}
+
+.avocados-card-img img {
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.raspberries-card {
+    position: absolute;
+    width: 241px;
+    height: 320px;
+    background-color: #fff2d8;
+    top: 340%;
+    left: 47%;
+}
+
+.raspberries-card-img img {
+    height: 200px;
+    margin-top: 12px;
+    margin-left: 18px;
+
+}
+
+.cabbage-card {
+    position: absolute;
+    width: 241px;
+    height: 320px;
+    background-color: #eaf8d3;
+    top: 340%;
+    left: 62%;
+
+}
+
+.cabbage-card-img img {
+    height: 200px;
+    margin-top: 12px;
+    margin-left: 50px;
+
+}
+
+.show-more {
+    position: absolute;
+    top: 380%;
+    left: 50%;
+
+}
+
+.show-more button {
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #90b340;
+    padding: 13px 38px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.show-more button:hover {
+    background-color: #90b340;
+    border-radius: 30px;
+}
+
+.test-img {
+    margin-left: 45px;
+    margin-top: 850px;
+    width: 95vw;
+    height: 90vh;
+    background-image: url("../image/taste-nature-best.png");
+    background-repeat: no-repeat;
+    background-color: #fef8ec;
+
+
+}
+
+.test-img img {
+    position: absolute;
+    left: 7%;
+    height: 150px;
+}
+
+.test-heading {
+    position: absolute;
+    text-align: center;
+    left: 31%;
+    font-family: "Libre Baskerville", serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 250px;
+    color: #FFFFFF;
+
+}
+
+.test-img-2 img {
+    position: absolute;
+    left: 83%;
+    margin-top: 550px;
+
+}
+
+.leaf-vector {
+
+    max-height: 60px;
+    margin-left: 280px;
+    margin-top: -60px;
+}
+
+.shop-now {
+    position: absolute;
+    left: 46%;
+    top: 420%;
+}
+
+.shop-now button {
+    padding: 13px 38px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 200px;
+    cursor: pointer;
+
+}
+
+.shop-now button:hover {
+    background-color: #90b340;
+    border-radius: 30px;
+}
+
+
+.flower-picture img {
+    position: relative;
+    height: 150px;
+    left: 10%;
+    margin-top: 120px;
+
+}
+
+.salad-plate img {
+    position: absolute;
+    left: 15%;
+    height: 500px;
+    width: 600px;
+    top: 500%;
+}
+
+.vector img {
+
+    max-height: 100px;
+    margin-top: 320px;
+    margin-left: 868px;
+}
+
+.only-organic {
+
+    margin-top: -21%;
+    margin-left: 1000px;
+}
+
+.only-organic h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+
+.only-organic h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #8FB339;
+    line-height: 70px;
+    margin-top: 30px;
+}
+
+.only-organic p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+
+.ex-btn {
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #90b340;
+    padding: 13px 38px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ex-btn:hover {
+    background-color: #90b340;
+    border-radius: 30px;
+}
+
+.from-nature {
+    margin-top: 14%;
+    text-align: center;
+}
+
+.from-nature h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+
+}
+
+.from-nature h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #8FB339;
+    margin-top: 30px;
+}
+
+.from-nature p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.chicken-salad {
+    margin-left: 280px;
+    margin-top: 3%;
+
+}
+
+.chicken-salad img {
+    width: 200px;
+}
+
+.chicken-salad h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+}
+
+.cart-span span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #333333;
+    padding-right: 80px;
+    margin-top: 20px;
+}
+
+.cart-span i {
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #8fb339;
+    color: #fff;
+    padding: 10px 10px;
+
+}
+
+.egg-salad {
+    margin-left: 680px;
+    margin-top: -280px;
+}
+
+.egg-salad img {
+    width: 190px;
+
+}
+
+.egg-salad h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+    margin-left: 25px;
+}
+
+.cart-span-2 span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #333333;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.cart-span-2 i {
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #8fb339;
+    color: #fff;
+    padding: 10px 10px;
+    margin-left: 40px;
+}
+
+.poke-salad {
+    margin-left: 1010px;
+    margin-top: -280px;
+
+}
+
+.poke-salad img {
+    width: 190px;
+
+}
+
+.poke-salad h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+    margin-left: 25px;
+}
+
+.cart-span-3 span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #333333;
+    padding-left: 30px;
+    margin-top: 20px;
+
+}
+
+.cart-span-3 i {
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #8fb339;
+    color: #fff;
+    padding: 10px 10px;
+    margin-left: 50px;
+
+}
+
+.vegan-salad {
+    margin-left: 1400px;
+    margin-top: -260px;
+
+}
+
+.vegan-salad img {
+    width: 220px;
+
+}
+
+.vegan-salad h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+    margin-left: 25px;
+}
+
+.cart-span-4 span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #333333;
+    padding-left: 25px;
+    margin-top: 20px;
+
+}
+
+.cart-span-4 i {
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #8fb339;
+    color: #fff;
+    padding: 10px 10px;
+    margin-left: 60px;
+
+}
+
+.mixed-fruit {
+    margin-left: 270px;
+    margin-top: 100px;
+
+}
+
+.mixed-fruit img {
+    width: 200px;
+
+}
+
+.mixed-fruit h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+    margin-left: 20px;
+
+}
+
+.cart-span-5 span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #333333;
+    padding-left: 20px;
+    margin-top: 30px;
+
+}
+
+.cart-span-5 i {
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #8fb339;
+    color: #fff;
+    padding: 10px 10px;
+    margin-left: 50px;
+}
+
+.acai-smoothie {
+    margin-left: 650px;
+    margin-top: -16%;
+
+
+}
+
+.acai-smoothie img {
+    width: 220px;
+
+
+}
+
+.acai-smoothie h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+    margin-left: 20px;
+
+
+}
+
+.keto-diet-salad {
+    margin-left: 1020px;
+    margin-top: -15.4%;
+
+}
+
+.keto-diet-salad img {
+    width: 200px;
+}
+
+.keto-diet-salad h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+    margin-left: 20px;
+
+}
+
+.tropical-salad {
+    margin-left: 1400px;
+    margin-top: -16%;
+
+}
+
+.tropical-salad img {
+    width: 220px;
+
+
+}
+
+.tropical-salad h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8FB339;
+    margin-left: 10px;
+
+}
+
+.testimonial {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.testimonial h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+
+.testimonial h1 {
+    font-family: "Libre Baskerville", serif;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #8FB339;
+}
+
+.testimonial p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #333333;
+}
+
+.last-card {
+    margin-left: 250px;
+    margin-top: 190px;
+    background-color: #fff2d8;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+}
+
+.last-card img {
+    width: 150px;
+    position: absolute;
+    top: 720%;
+    left: 25%;
+
+}
+
+
+.last-card h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #333333;
+    margin-top: -90px;
+    padding-top: 200px;
+
+}
+
+.last-card p {
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 25px;
+    color: #333333;
+    line-height: 30px;
+
+}
+
+.star {
+    width: 150px;
+    margin-top: 380px;
+}
+
+.last-card-2 img {
+    width: 150px;
+    position: absolute;
+    top: 720%;
+    left: 50%;
+}
+
+.last-card-2 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #333333;
+    margin-top: -90px;
+    padding-top: 200px;
+}
+
+.last-card-2 p {
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 25px;
+    color: #333333;
+    line-height: 30px;
+
+}
+
+.star-2 {
+    width: 150px;
+    margin-top: 380px;
+}
+
+.last-card-img {
+    display: flex;
+    margin-left: 90px;
+
+}
+
+.last-card-2 {
+    margin-left: 30px;
+    margin-top: 190px;
+    background-color: #eaf8d3;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+}
+
+.last-card-3 {
+    margin-left: 30px;
+    margin-top: 190px;
+    background-color: #fff2d8;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+
+}
+
+.last-card-3 img {
+    width: 150px;
+    position: absolute;
+    top: 720%;
+    left: 76%;
+}
+
+.last-card-3 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #333333;
+    margin-top: -90px;
+    padding-top: 200px;
+}
+
+.last-card-3 p {
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+
+}
+
+.star-3 {
+    width: 150px;
+    margin-top: 380px;
+}
+
+.frame-200 {
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 1000px;
+}
+
+.contact-us-section {
+    display: flex;
+
+
+}
+
+.spinach img {
+    margin-top: 120px;
+    width: 700px;
+    height: 400px;
+}
+
+.contact-us h2 {
+    padding-top: 120px;
+    margin-left: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+
+}
+
+.contact-us h1 {
+    margin-top: 20px;
+    margin-left: 250px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #8FB339;
+}
+
+.contact-us img {
+    margin-left: 230px;
+    margin-top: 10px;
+}
+
+.contact-us p {
+    margin-top: -25px;
+    margin-left: 260px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+}
+
+.contact-btn {
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #90b340;
+    padding: 13px 38px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 260px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.contact-btn:hover {
+    background-color: #90b340;
+    border-radius: 30px;
+
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pictures-plate {
+    width: 280px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+.pictures-plate-2 {
+    width: 190px;
+    height: 260px;
+    margin-top: 100px;
+}
+
+.vector-1 {
+     margin-left: 1810px;
+     width: 90px;
+}
+
+/* footer */
+
+.footer-line {
+    margin: 50px 100px;
+}
+
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 90px;
+    color: #8FB339;
+
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list li {
+    padding: 30px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 70px;
+
+}
+
+.footer-para {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 90px;
+
+}
+
+.all-nature h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-right: 200px;
+
+}
+
+.all-nature h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.all-nature h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 380px;
+    margin-top: -20px;
+}
+.street-line{
+    position: absolute;
+    margin-top: 20px;
+    width: 370px;
+    left: 69.3%;
+}
+
+.social {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.tweeter {
+    margin-left: 40px;
+}
+
+.insta {
+    margin-left: 40px;
+}
+
+.group-img {
+    height: 60px;
+    margin-top: -40px;
+    margin-left: 500px;
+
+}
+.vector2{
+    position: absolute;
+    top: 905%;
+    left: 2%;
+}
